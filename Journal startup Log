@@ -1,0 +1,234 @@
+WRDX849@WRDX849:~ $ journalctl -u meshtasticd -b
+Aug 25 09:34:23 WRDX849 systemd[1]: Started meshtasticd.service - Meshtastic Daemon.
+Aug 25 09:34:23 WRDX849 meshtasticd[804]: Portduino is starting, HWID=1, VFS root at /root/.portduino/default
+Aug 25 09:34:23 WRDX849 meshtasticd[804]: Setting up Meshtastic on Portduino...
+Aug 25 09:34:23 WRDX849 meshtasticd[804]: Using /etc/meshtasticd/config.yaml as config file
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: //\ E S H T /\ S T / C
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: No I2C device configured, skipping.
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: No I2C devices found
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: S:B:37,2.4.2.5b45303
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Initializing NodeDB
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loading /prefs/db.proto
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded /prefs/db.proto successfully
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded saved devicestate version 23, with nodecount: 1
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loading /prefs/config.proto
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded /prefs/config.proto successfully
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded saved config version 23
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loading /prefs/module.proto
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded /prefs/module.proto successfully
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded saved moduleConfig version 23
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loading /prefs/channels.proto
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded /prefs/channels.proto successfully
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded saved channelFile version 23
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: File /oem/oem.proto not found
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Wanted region 0, using UNSET
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: File /prefs/cannedConf.proto not found
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: CannedMessageModule is enabled
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loading /prefs/channels.proto
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded /prefs/channels.proto successfully
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded saved channelFile version 23
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: File /oem/oem.proto not found
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Wanted region 0, using UNSET
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: File /prefs/cannedConf.proto not found
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: CannedMessageModule is enabled
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Starting meshradio init...
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio freq=906.875, config.lora.frequency_offset=0.000
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Set radio: region=UNSET, name=LongFast, config=0, ch=19, power=30
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio myRegion->freqStart -> myRegion->freqEnd: 902.000000 -> 928.000000 (26.000000 MHz)
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio myRegion->numChannels: 104 x 250.000kHz
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio channel_num: 20
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio frequency: 906.875000
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+...skipping...
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loading /prefs/channels.proto
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded /prefs/channels.proto successfully
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Loaded saved channelFile version 23
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: File /oem/oem.proto not found
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Wanted region 0, using UNSET
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: File /prefs/cannedConf.proto not found
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: CannedMessageModule is enabled
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Starting meshradio init...
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio freq=906.875, config.lora.frequency_offset=0.000
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Set radio: region=UNSET, name=LongFast, config=0, ch=19, power=30
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio myRegion->freqStart -> myRegion->freqEnd: 902.000000 -> 928.000000 (26.000000 MHz)
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio myRegion->numChannels: 104 x 250.000kHz
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio channel_num: 20
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Radio frequency: 906.875000
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Slot time: 42 msec
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 0
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Set radio: final power level=22
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: INFO  | ??:??:?? 10
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: SX126x init result -2
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: ERROR | ??:??:?? 10
+Aug 25 09:34:34 WRDX849 meshtasticd[804]: Failed to find SX1262 radio
+Aug 25 09:34:34 WRDX849 meshtasticd[804]:
+Aug 25 09:34:34 WRDX849 systemd[1]: meshtasticd.service: Main process exited, code=exited, status=1/FAILURE
+Aug 25 09:34:34 WRDX849 systemd[1]: meshtasticd.service: Failed with result 'exit-code'.
+Aug 25 09:34:34 WRDX849 systemd[1]: meshtasticd.service: Scheduled restart job, restart counter is at 1.
+Aug 25 09:34:34 WRDX849 systemd[1]: Stopped meshtasticd.service - Meshtastic Daemon.
+Aug 25 09:34:34 WRDX849 systemd[1]: Started meshtasticd.service - Meshtastic Daemon.
+Aug 25 09:34:34 WRDX849 meshtasticd[1488]: Portduino is starting, HWID=1, VFS root at /root/.portduino/default
+Aug 25 09:34:34 WRDX849 meshtasticd[1488]: Setting up Meshtastic on Portduino...
+Aug 25 09:34:34 WRDX849 meshtasticd[1488]: Using /etc/meshtasticd/config.yaml as config file
